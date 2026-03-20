@@ -734,8 +734,7 @@ function dashHTML(){
     <div class="kgrid">${kpis}</div>
     ${S.isAdmin?`<div class="rcard"><div style="padding:16px 20px;border-bottom:1px solid var(--border)"><div class="sec" style="margin:0">Performance por Vendedor</div></div>
       <div style="overflow-x:auto"><table><thead><tr><th>Vendedor</th><th style="text-align:center">Total</th><th style="text-align:center">Pipeline</th><th style="text-align:center">Fechados</th><th style="text-align:center">Conversão</th><th style="text-align:center">Tarefas</th><th style="text-align:right">Receita</th></tr></thead><tbody>${rows}</tbody></table></div>
-    </div>
-  
+    </div>`:''}
     <div class="rcard" style="margin-top:20px">
       <div style="padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between">
         <div class="sec" style="margin:0">🎯 Meta Mensal de Fechamentos</div>
